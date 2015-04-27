@@ -1,5 +1,3 @@
-# About
-
 The WHO Hand Hygiene Survey is a mobile friendly tool for performing hand hygiene in hospitals in accordance with the [World Health Oragnisation: Five Moments of Hand Hygiene](http://www.who.int/gpsc/tools/Five_moments/en/).
 
 - HTML5, CSS and JavaScript only.
@@ -10,6 +8,8 @@ The WHO Hand Hygiene Survey is a mobile friendly tool for performing hand hygien
   - IE 9+
 - Works on desktop, tablets and mobile devices.
 - Uses browser's native [localStorage](http://en.wikipedia.org/wiki/Web_storage#localStorage) for all data.
+
+[![Build Status](https://travis-ci.org/andrewholgate/who-hand-hygiene-survey.svg?branch=master)](https://travis-ci.org/andrewholgate/who-hand-hygiene-survey)
 
 # Technology
 
@@ -22,14 +22,14 @@ The WHO Hand Hygiene Survey is a mobile friendly tool for performing hand hygien
 
 ## Development Environment
 
-- [NodeJS](https://nodejs.org/) runtime environment for server-side
+- [NodeJS](https://nodejs.org/) runtime environment for server-side.
 - [Grunt](http://gruntjs.com/) for development task running.
 
 # Standards Used
 
 - Code using JavaScript [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode).
 - Conforms to [jQuery coding style guide](https://contribute.jquery.org/style-guide/js/).
-- HTML5 validate
+- HTML5 valid.
 
 # Developer Setup
 
