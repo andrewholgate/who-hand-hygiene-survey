@@ -1,0 +1,127 @@
+<div class="row-fluid">
+  <div class="span10">
+    <div class="hero-unit">
+      <form id="survey">
+        <div class="step"><!-- First step -->
+          <h1>Professional Category</h1>
+          <div class="button-group btn-wide">
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Nurse / Midwife</label>
+                <input type="radio" name="step-1" value="1" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Auxiliary</label>
+                <input type="radio" name="step-1" value="2" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Medical Doctor</label>
+                <input type="radio" name="step-1" value="3" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Other</label>
+                <input type="radio" name="step-1" value="4" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step"><!-- Second Step -->
+          <h1>Hygiene Opportunity</h1>
+          <div class="button-group btn-wide">
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Before Touching a Patient</label>
+                <input type="radio" name="step-2" value="before-pat" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">After Body Fluid Exposure Risk</label>
+                <input type="radio" name="step-2" value="after-b.f" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Before Aseptic procedure</label>
+                <input type="radio" name="step-2" value="before-asept" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">After Touching Patient</label>
+                <input type="radio" name="step-2" value="after-pat" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">After Touching Pat. Surroundings</label>
+                <input type="radio" name="step-2" value="after-pat.surr" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step"><!-- Third step -->
+          <h1>Hygiene Action</h1>
+          <div class="button-group btn-wide">
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">None</label>
+                <input type="radio" name="step-3" value="none" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Hand Rub</label>
+                <input type="radio" name="step-3" value="rub" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Hand Wash</label>
+                <input type="radio" name="step-3" value="wash" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label class="btn btn-default btn-lg">Wearing Gloves</label>
+                <input type="radio" name="step-3" value="gloves" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step"><!-- Fourth step -->
+          <h1>Survey Summary</h1>
+          <table class="table table-condensed table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Professional Category</th>
+              <th>Opportunity</th>
+              <th>Hygiene Action</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        <div class="form-group btn-pair button-group">
+          <a href="#/survey" class="btn btn-default btn-lg" id="save-previous">Previous</a>
+          <a href="#/" class="btn btn-primary btn-lg" id="save-survey">Save Survey</a>
+        </div>
+      </div> <!-- / Third Step -->
+
+      </form>
+      <br />
+      <!-- Navigation -->
+      <div class="form-group btn-pair button-group">
+        <a href="#/survey" class="btn btn-default btn-lg" id="nav-previous">Previous</a>
+        <a href="#/survey" class="btn btn-primary btn-lg disabled" id="nav-next">Next</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="row-fluid">
+  <div class="span10">
+    <div class="hero-unit">
+      <h1>All Results</h1>
+
+      <table class="table table-condensed table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Prof. Category</th>
+            <th>Opportunity</th>
+            <th>Hygiene Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%= tableRows %>
+        </tbody>
+      </table>
+      <div class="btn-wide button-group">
+        <div class="form-group">
+          <a href="#/survey" id="survey" class="btn btn-primary btn-lg">New Survey</a>
+        </div>
+        <div class="form-group">
+          <a href="#/" id="home" class="btn btn-default btn-lg">Home</a>
+        </div>
+        <div class="form-group">
+          <a href="<%= emailAction %>" id="email" role="button" class="btn btn-default btn-lg"><%= emailBtn %></a>
+        </div>
+        <div class="form-group">
+          <a href="<%= download %>" id="download" class="btn btn-default btn-lg" role="button" download="survey-hand-hygiene.csv">Download Results</a>
+        </div>
+        <div class="form-group">
+          <a href="#/delete" id="delete" class="btn btn-danger btn-lg">Delete Session &amp; Results</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

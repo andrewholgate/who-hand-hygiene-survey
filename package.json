@@ -1,0 +1,57 @@
+{
+  "name": "who-hand-hygiene-survey",
+  "version": "0.9.0",
+  "description": "World Health Organisation Hand Hygiene Survey app",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "backbone.localstorage": "^1.1.16",
+    "bootstrap": "^3.3.4",
+    "jquery": "^1.11.2",
+    "requirejs": "^2.1.17",
+    "requirejs-text": "^2.0.12"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-casperjs": "^2.1.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "*",
+    "grunt-jscs": "^1.6.0",
+    "jscs": "^1.12.0",
+    "matchdep": "^0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewholgate/who-hand-hygiene-survey.git"
+  },
+  "keywords": [
+    "hand",
+    "hygiene",
+    "survey",
+    "World Health Organization",
+    "WHO",
+    "hospital",
+    "offline"
+  ],
+  "author": "Andrew Holgate <andrewholgate@yahoo.com>",
+  "contributors": [
+    {
+      "name": "Lara Ricotta",
+      "email": "lara.ricotta@gmail.com"
+    }
+  ],
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/andrewholgate/who-hand-hygiene-survey/issues"
+  },
+  "homepage": "https://github.com/andrewholgate/who-hand-hygiene-survey"
+}

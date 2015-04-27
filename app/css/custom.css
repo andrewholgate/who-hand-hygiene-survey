@@ -1,0 +1,102 @@
+h1 {
+  margin-top: 0em;
+}
+
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 2.0em;
+  }
+}
+
+/*
+.container {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+*/
+
+/*
+.content-container {
+  padding-right: ;
+  padding-left: ;
+}
+*/
+
+.navbar-default .navbar-brand {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: #337ab7;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* Survey */
+.btn-wide label,
+.btn-wide a {
+  width: 20em;
+  max-width: 100%;
+}
+
+.btn-pair a {
+  width: 10em;
+  max-width: 49%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.button-group {
+  text-align: center;
+  display: block;
+  margin-top: 2em;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.radio label.checked {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+/* Table */
+th, td {
+  text-align: center;
+}
+
+table {
+  margin-top: 2em;
+}
+
+/* Survey Previous / Next buttons */
+#button-group {
+  text-align: center;
+}
+
+#nav-previous, #save-previous, #cancel, #save {
+  margin-right: 1em;
+}
+
+#nav-next, #results-delete {
+  margin-left: 1em;
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  footer {
+    display: none;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+#version {
+  float: right;
+}

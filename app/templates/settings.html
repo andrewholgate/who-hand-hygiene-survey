@@ -1,0 +1,25 @@
+<div class="row-fluid">
+  <div class="span10">
+    <div class="hero-unit">
+      <h1>Application Settings</h1>
+      <form>
+        <div class="form-group">
+          <label for="email-address">Email address</label>
+          <input type="email" value="<%= email %>" class="form-control" id="email-address" placeholder="justin.smith@example.com" aria-describedby="help-email-address">
+          <span id="help-email-address" class="help-block">Email address to receive survey results.</span>
+        </div>
+        <div class="form-group">
+          <label for="language">Language</label>
+          <select class="form-control" id="language" disabled aria-describedby="help-language">
+            <option value="en">English</option>
+          </select>
+          <span id="help-language" class="help-block">Language of the survey.</span>
+        </div>
+        <div class="form-group btn-pair" id="button-group">
+          <a href="#/" id="cancel" class="btn btn-lg btn-default">Cancel</a>
+          <a href="#/settings" id="save-settings" class="btn btn-primary btn-lg">Save</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
