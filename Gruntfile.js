@@ -81,7 +81,6 @@ module.exports = function(grunt) {
                 eqeqeq: true,
                 es3: true,
                 forin: true,
-                freeze: true,
                 futurehostile: true,
                 iterator: true,
                 latedef: "nofunc",
